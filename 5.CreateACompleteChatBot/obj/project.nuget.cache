@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qy8wt+3na9c=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HungNguyenThanh\\OneDrive - NASHTECH\\study\\GenerativeAI\\ai-dotnet-practise\\AIDotnetTutorial\\5.CreateACompleteChatBot\\5.CreateACompleteChatBot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HungNguyenThanh\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.10\\microsoft.aspnetcore.openapi.9.0.10.nupkg.sha512",
+    "C:\\Users\\HungNguyenThanh\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,6 @@
+@_5.CreateACompleteChatBot_HostAddress = http://localhost:5095
+
+GET {{_5.CreateACompleteChatBot_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

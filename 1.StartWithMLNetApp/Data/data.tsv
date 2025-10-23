@@ -1,0 +1,661 @@
+Text	Label
+This product is amazing and works perfectly!	True
+I love this service, it's fantastic	True
+Great quality and fast delivery	True
+Excellent customer service experience	True
+Very satisfied with my purchase	True
+Outstanding product quality	True
+Highly recommend this to everyone	True
+Perfect solution for my needs	True
+Amazing value for money	True
+Best purchase I've made this year	True
+Terrible product, waste of money	False
+Very disappointed with the quality	False
+Poor customer service	False
+Product broke after one day	False
+Not worth the price at all	False
+Worst experience ever	False
+Complete garbage, don't buy	False
+Extremely poor quality	False
+Total waste of time and money	False
+Very unsatisfied with this purchase	False
+Good product overall	True
+Nice design and functionality	True
+Works as expected	True
+Fair price for the quality	True
+Decent customer support	True
+Reliable and efficient	True
+Pretty good experience	True
+Solid build quality	True
+Happy with the results	True
+Worth the investment	True
+Could be better	False
+Not impressed	False
+Average at best	False
+Mediocre quality	False
+Overpriced for what you get	False
+Expected more from this brand	False
+Somewhat disappointing	False
+Not what I expected	False
+Below average performance	False
+Needs improvement	False
+Absolutely fantastic service!	True
+Love everything about this product	True
+Exceeded my expectations completely	True
+Five stars without hesitation	True
+Perfect in every way	True
+Can't imagine using anything else	True
+Revolutionary product design	True
+Game changer for my business	True
+Incredible attention to detail	True
+Masterpiece of engineering	True
+Horrible experience from start to finish	False
+Completely useless product	False
+Regret buying this immediately	False
+Worst quality I've ever seen	False
+Avoid at all costs	False
+Extremely frustrating to use	False
+Total disaster of a product	False
+Money down the drain	False
+Absolutely terrible service	False
+Nightmare customer experience	False
+Great value and excellent performance	True
+Very pleased with the quality	True
+Smooth and hassle-free experience	True
+Top-notch product features	True
+Impressive build and design	True
+Reliable performance every time	True
+Excellent craftsmanship evident	True
+Perfect fit for my requirements	True
+Outstanding user experience	True
+Highly functional and efficient	True
+Poor design and functionality	False
+Cheaply made and unreliable	False
+Frequent issues and problems	False
+Difficult to use interface	False
+Lacks important features	False
+Confusing and poorly designed	False
+Breaks easily with normal use	False
+Not durable at all	False
+Expensive for such poor quality	False
+Would not recommend to anyone	False
+This is exactly what I needed	True
+Perfect timing for delivery	True
+Great communication throughout	True
+Easy to set up and use	True
+Works flawlessly every time	True
+Excellent product documentation	True
+Very user-friendly interface	True
+Great customer support team	True
+Fast and efficient service	True
+Completely satisfied customer	True
+Constant technical difficulties	False
+Very slow and unresponsive	False
+Multiple defects right away	False
+Poor packaging and presentation	False
+Misleading product description	False
+Hidden fees and charges	False
+Complicated return process	False
+Unresponsive customer service	False
+Product arrived damaged	False
+Not compatible as advertised	False
+Exceptional quality and service	True
+Brilliant product innovation	True
+Flawless execution and delivery	True
+Remarkable attention to customer needs	True
+Superior performance in all aspects	True
+Genuinely impressed with everything	True
+Outstanding value proposition	True
+Perfect solution that works	True
+Excellent professional service	True
+Truly exceptional product quality	True
+Complete failure in every aspect	False
+Extremely poor build quality	False
+Totally unreliable and buggy	False
+Absolutely worthless purchase	False
+Terrible user experience	False
+Completely broken functionality	False
+Worst customer service ever	False
+Utterly disappointing results	False
+Complete waste of resources	False
+Absolutely no value whatsoever	False
+Very good product overall	True
+Nice features and functionality	True
+Good build quality	True
+Reasonable price point	True
+Effective and reliable	True
+Meets all my requirements	True
+Good customer service	True
+Solid performance	True
+Well designed product	True
+Satisfied with purchase	True
+Not great but acceptable	False
+Could use some improvements	False
+Average quality product	False
+Somewhat overpriced	False
+Mixed feelings about this	False
+Not particularly impressive	False
+Mediocre customer service	False
+Expected better quality	False
+Room for improvement	False
+Not the best option	False
+Amazing product that delivers results	True
+Fantastic customer experience	True
+Superior quality materials used	True
+Excellent value for money	True
+Perfect functionality and design	True
+Outstanding customer support	True
+Highly recommended purchase	True
+Great product innovation	True
+Exceptional service quality	True
+Truly satisfied customer	True
+Disappointing product quality	False
+Poor value for money	False
+Unreliable and problematic	False
+Subpar customer service	False
+Not worth the investment	False
+Below expectations completely	False
+Frequent malfunctions	False
+Difficult customer support	False
+Overpriced and underwhelming	False
+Would not buy again	False
+Excellent craftsmanship and attention to detail	True
+Superb performance in all conditions	True
+Outstanding durability and reliability	True
+Perfect integration with existing systems	True
+Exceptional user interface design	True
+Brilliant customer service approach	True
+Remarkable product innovation	True
+Superior quality control evident	True
+Excellent technical documentation	True
+Perfect solution for business needs	True
+Terrible product reliability issues	False
+Extremely poor customer support	False
+Completely inadequate functionality	False
+Seriously overpriced for quality	False
+Major design flaws evident	False
+Consistently poor performance	False
+Absolutely no technical support	False
+Completely unreliable system	False
+Terrible user experience design	False
+Utterly disappointing purchase	False
+Great product with excellent features	True
+Very happy with the quality	True
+Smooth operation every time	True
+Perfect size and design	True
+Excellent materials and build	True
+Great customer service experience	True
+Very reliable and durable	True
+Easy to use and understand	True
+Great value proposition	True
+Highly functional product	True
+Not impressed with quality	False
+Poor customer service response	False
+Product doesn't work properly	False
+Overpriced for the features	False
+Difficult to use interface	False
+Unreliable performance	False
+Poor build quality evident	False
+Not worth the money	False
+Disappointing user experience	False
+Would not recommend	False
+Absolutely perfect product	True
+Everything works flawlessly	True
+Exceeded all expectations	True
+Perfect customer service	True
+Outstanding product quality	True
+Brilliant design and function	True
+Exceptional value delivery	True
+Perfect user experience	True
+Outstanding technical support	True
+Truly remarkable product	True
+Complete disaster purchase	False
+Absolutely terrible quality	False
+Worst product ever made	False
+Completely useless features	False
+Terrible customer support	False
+Utterly disappointing experience	False
+Complete waste of money	False
+Absolutely no value	False
+Worst purchase decision	False
+Completely regret buying	False
+Very satisfied with everything	True
+Great product performance	True
+Excellent customer care	True
+Perfect functionality	True
+Outstanding value	True
+Great user experience	True
+Reliable and efficient	True
+Perfect solution	True
+Excellent quality	True
+Highly recommended	True
+Not satisfied at all	False
+Poor product quality	False
+Bad customer service	False
+Unreliable functionality	False
+Not worth it	False
+Disappointing experience	False
+Poor value	False
+Not recommended	False
+Below average	False
+Could be better	False
+Fantastic product with great features	True
+Love the design and functionality	True
+Perfect for my specific needs	True
+Great quality at reasonable price	True
+Excellent customer support team	True
+Very reliable and consistent	True
+Easy setup and configuration	True
+Outstanding performance results	True
+Highly efficient and effective	True
+Perfect integration capabilities	True
+Poor design and usability	False
+Frequent technical problems	False
+Difficult customer support	False
+Not reliable for daily use	False
+Overpriced for limited features	False
+Confusing user interface	False
+Poor documentation provided	False
+Inconsistent performance	False
+Not compatible with systems	False
+Disappointing overall experience	False
+Exceptional product that works perfectly	True
+Amazing customer service experience	True
+Outstanding quality and performance	True
+Perfect solution for all needs	True
+Excellent value and reliability	True
+Superior design and functionality	True
+Remarkable customer support	True
+Perfect product execution	True
+Outstanding technical capabilities	True
+Truly exceptional purchase	True
+Completely unreliable product	False
+Terrible technical support	False
+Poor quality control	False
+Expensive with limited value	False
+Difficult integration process	False
+Inconsistent product performance	False
+Poor user experience design	False
+Inadequate customer service	False
+Not suitable for intended use	False
+Completely disappointing purchase	False
+Great product with solid performance	True
+Very pleased with quality	True
+Excellent customer experience	True
+Perfect functionality delivery	True
+Outstanding product features	True
+Great value for investment	True
+Reliable and well-built	True
+Easy to use effectively	True
+Perfect customer support	True
+Highly satisfied customer	True
+Not impressed with performance	False
+Poor quality for the price	False
+Unreliable customer service	False
+Limited functionality offered	False
+Difficult to use properly	False
+Not worth the investment	False
+Poor build quality	False
+Disappointing results	False
+Would not purchase again	False
+Below standard quality	False
+Absolutely brilliant product design	True
+Perfect execution in every detail	True
+Outstanding customer service delivery	True
+Exceptional quality and reliability	True
+Superior performance in all areas	True
+Perfect integration and compatibility	True
+Excellent technical documentation	True
+Outstanding user experience	True
+Perfect value proposition	True
+Truly outstanding product	True
+Completely failed expectations	False
+Absolutely poor quality	False
+Terrible customer experience	False
+Completely unreliable system	False
+Extremely disappointing purchase	False
+Poor technical support	False
+Completely inadequate functionality	False
+Terrible user interface	False
+Absolutely no value	False
+Worst customer service	False
+Excellent product with great benefits	True
+Very happy with the results	True
+Perfect solution that works	True
+Great quality and reliability	True
+Outstanding customer care	True
+Excellent performance delivery	True
+Perfect user-friendly design	True
+Great value and functionality	True
+Highly effective solution	True
+Perfect customer satisfaction	True
+Not happy with quality	False
+Poor customer support experience	False
+Unreliable product performance	False
+Not good value for money	False
+Difficult to use effectively	False
+Poor design and functionality	False
+Not reliable for business use	False
+Disappointing product quality	False
+Would not recommend to others	False
+Below expectations completely	False
+Amazing product that exceeds expectations	True
+Fantastic customer service team	True
+Perfect quality and performance	True
+Excellent value for money spent	True
+Outstanding reliability and durability	True
+Great design and user experience	True
+Perfect technical support	True
+Excellent product innovation	True
+Outstanding customer satisfaction	True
+Perfect business solution	True
+Terrible product with many issues	False
+Poor customer service response	False
+Completely unreliable functionality	False
+Not worth the high price	False
+Difficult and confusing interface	False
+Poor quality materials used	False
+Unreliable technical support	False
+Disappointing overall performance	False
+Not suitable for professional use	False
+Complete waste of investment	False
+Very good product with excellent features	True
+Great customer service experience	True
+Perfect functionality and design	True
+Excellent quality and performance	True
+Outstanding value delivery	True
+Great reliability and efficiency	True
+Perfect user experience	True
+Excellent technical capabilities	True
+Outstanding customer support	True
+Perfect solution for needs	True
+Not satisfied with product quality	False
+Poor value for money paid	False
+Unreliable and inconsistent performance	False
+Difficult customer service process	False
+Not impressed with functionality	False
+Poor design and usability	False
+Not reliable for important tasks	False
+Disappointing user experience	False
+Would not buy this again	False
+Below average product quality	False
+Absolutely perfect in every way	True
+Outstanding quality and service	True
+Perfect customer experience	True
+Excellent performance and reliability	True
+Superior design and functionality	True
+Perfect value and quality	True
+Outstanding technical support	True
+Excellent user interface	True
+Perfect business integration	True
+Truly exceptional product	True
+Absolutely terrible experience	False
+Complete failure of product	False
+Worst quality imaginable	False
+Terrible customer service	False
+Completely useless purchase	False
+Absolutely no redeeming qualities	False
+Worst investment ever made	False
+Complete disaster from start	False
+Absolutely horrible experience	False
+Totally regret this purchase	False
+Great product that works well	True
+Very satisfied with quality	True
+Excellent customer service	True
+Perfect functionality	True
+Outstanding performance	True
+Great value proposition	True
+Reliable and durable	True
+Easy to use	True
+Perfect solution	True
+Highly recommended	True
+Not good quality	False
+Poor customer support	False
+Unreliable product	False
+Not worth price	False
+Difficult to use	False
+Poor performance	False
+Not reliable	False
+Disappointing quality	False
+Would not recommend	False
+Below expectations	False
+Exceptional product quality and service	True
+Perfect customer satisfaction experience	True
+Outstanding performance in all aspects	True
+Excellent value and reliability delivered	True
+Superior design and functionality offered	True
+Perfect integration and compatibility	True
+Outstanding technical support provided	True
+Excellent user experience design	True
+Perfect business solution delivered	True
+Truly remarkable product quality	True
+Completely disappointed with everything	False
+Absolutely poor quality product	False
+Terrible customer service experience	False
+Completely unreliable and buggy	False
+Extremely poor value proposition	False
+Terrible design and functionality	False
+Absolutely no technical support	False
+Completely inadequate performance	False
+Terrible user experience provided	False
+Absolutely worst purchase ever	False
+Very good quality product	True
+Great customer experience	True
+Perfect performance	True
+Excellent reliability	True
+Outstanding value	True
+Great functionality	True
+Perfect design	True
+Excellent support	True
+Outstanding quality	True
+Perfect satisfaction	True
+Not impressed	False
+Poor quality	False
+Bad service	False
+Unreliable	False
+Not worth it	False
+Disappointing	False
+Poor value	False
+Not good	False
+Below average	False
+Could improve	False
+Absolutely fantastic experience overall	True
+Perfect product with excellent quality	True
+Outstanding customer service delivery	True
+Excellent performance and reliability	True
+Superior value and functionality	True
+Perfect design and usability	True
+Outstanding technical capabilities	True
+Excellent customer satisfaction	True
+Perfect business integration	True
+Truly outstanding purchase	True
+Completely terrible experience	False
+Absolutely poor product	False
+Terrible service quality	False
+Completely unreliable	False
+Extremely disappointing	False
+Terrible value proposition	False
+Absolutely no support	False
+Completely inadequate	False
+Terrible user experience	False
+Absolutely worst quality	False
+Great product functionality	True
+Very satisfied overall	True
+Excellent quality delivery	True
+Perfect customer service	True
+Outstanding performance	True
+Great value offered	True
+Reliable and effective	True
+Easy and efficient	True
+Perfect solution provided	True
+Highly effective product	True
+Not satisfied completely	False
+Poor overall quality	False
+Bad customer experience	False
+Unreliable functionality	False
+Not good value	False
+Disappointing performance	False
+Poor design quality	False
+Not recommended	False
+Below standard	False
+Needs improvement	False
+Exceptional quality and excellent service	True
+Perfect customer satisfaction guaranteed	True
+Outstanding performance delivered consistently	True
+Excellent value proposition offered	True
+Superior design and functionality	True
+Perfect reliability and durability	True
+Outstanding customer support experience	True
+Excellent technical capabilities provided	True
+Perfect business solution offered	True
+Truly exceptional product quality	True
+Completely failed product quality	False
+Absolutely terrible customer service	False
+Terrible performance and reliability	False
+Completely poor value proposition	False
+Terrible design and functionality	False
+Absolutely unreliable product	False
+Completely inadequate support	False
+Terrible technical capabilities	False
+Absolutely poor business solution	False
+Completely disappointing experience	False
+Very good overall experience	True
+Great product quality	True
+Perfect customer care	True
+Excellent functionality	True
+Outstanding reliability	True
+Great design quality	True
+Perfect performance	True
+Excellent value	True
+Outstanding support	True
+Perfect product	True
+Not good experience	False
+Poor product	False
+Bad customer care	False
+Poor functionality	False
+Not reliable	False
+Poor design	False
+Not good performance	False
+Poor value	False
+Not good support	False
+Poor product overall	False
+Amazing product with perfect quality	True
+Fantastic customer service experience	True
+Perfect performance and reliability	True
+Excellent value for investment	True
+Outstanding design and functionality	True
+Great customer satisfaction delivered	True
+Perfect technical support provided	True
+Excellent user experience offered	True
+Outstanding business solution	True
+Perfect product quality delivered	True
+Terrible product with poor quality	False
+Poor customer service experience	False
+Bad performance and reliability	False
+Poor value for investment	False
+Terrible design and functionality	False
+Bad customer satisfaction	False
+Poor technical support provided	False
+Terrible user experience offered	False
+Poor business solution	False
+Terrible product quality	False
+Excellent product that works perfectly	True
+Very happy with everything	True
+Perfect solution for business	True
+Great quality and performance	True
+Outstanding customer experience	True
+Excellent value and reliability	True
+Perfect design and functionality	True
+Great technical support	True
+Outstanding user experience	True
+Perfect customer satisfaction	True
+Not happy with product	False
+Poor overall experience	False
+Bad solution quality	False
+Poor quality and performance	False
+Not good customer experience	False
+Poor value and reliability	False
+Bad design and functionality	False
+Poor technical support	False
+Not good user experience	False
+Poor customer satisfaction	False
+Absolutely perfect product quality	True
+Outstanding customer service experience	True
+Perfect performance and functionality	True
+Excellent value and reliability	True
+Superior design and usability	True
+Perfect customer satisfaction	True
+Outstanding technical support	True
+Excellent user experience	True
+Perfect business solution	True
+Truly exceptional quality	True
+Absolutely terrible product quality	False
+Poor customer service experience	False
+Terrible performance and functionality	False
+Poor value and reliability	False
+Bad design and usability	False
+Terrible customer satisfaction	False
+Poor technical support	False
+Bad user experience	False
+Terrible business solution	False
+Absolutely poor quality	False
+Great product with excellent results	True
+Very satisfied with everything	True
+Perfect customer service	True
+Excellent product quality	True
+Outstanding performance	True
+Great value delivered	True
+Perfect functionality	True
+Excellent support	True
+Outstanding experience	True
+Perfect satisfaction	True
+Not satisfied with results	False
+Poor everything	False
+Bad customer service	False
+Poor product quality	False
+Not good performance	False
+Poor value delivered	False
+Bad functionality	False
+Poor support	False
+Not good experience	False
+Poor satisfaction	False
+Perfect product in every aspect	True
+Outstanding quality and service	True
+Excellent customer experience	True
+Perfect performance delivery	True
+Superior value proposition	True
+Outstanding design quality	True
+Perfect technical support	True
+Excellent user satisfaction	True
+Outstanding business value	True
+Perfect product solution	True
+Terrible product in every aspect	False
+Poor quality and service	False
+Bad customer experience	False
+Terrible performance delivery	False
+Poor value proposition	False
+Bad design quality	False
+Terrible technical support	False
+Poor user satisfaction	False
+Bad business value	False
+Terrible product solution	False
+Excellent product with great value	True
+Very good customer service	True
+Perfect quality delivered	True
+Great performance results	True
+Outstanding user experience	True
+Excellent technical support	True
+Perfect business solution	True
+Great customer satisfaction	True
+Outstanding product quality	True
+Perfect overall experience	True
+Poor product with bad value	False
+Very bad customer service	False
+Terrible quality delivered	False
+Poor performance results	False
+Bad user experience	False
+Poor technical support	False
+Terrible business solution	False
+Poor customer satisfaction	False
+Bad product quality	False
+Terrible overall experience	False
