@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\3.InteractWithONNX.props" />
-</Project>

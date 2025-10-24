@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.SemanticKernel;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,12 @@ builder.Services.AddAzureOpenAIChatCompletion(
     endpoint: builder.Configuration["OpenAI:Endpoint"],
     apiKey: builder.Configuration["OpenAI:ApiKey"]
 );
+builder.Services.AddTransient((serviceProvider) =>
+{
+    return new Kernel(serviceProvider);
+});
+
+builder.Services.AddTransient<IChatService, ChatService>();
 
 var app = builder.Build();
 
@@ -25,10 +32,11 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapGet("/weatherforecast", () =>
+app.MapPost("/summary", async (IChatService chatService, [FromBody] ChatRequest chatRequest) =>
 {
-    return "sss";
+    var response = await chatService.GetChatSummaryResponseAsync(chatRequest);
+    return Results.Ok(response);
 })
-.WithName("GetWeatherForecast");
+.WithName("GetChatSummary");
 
 app.Run();

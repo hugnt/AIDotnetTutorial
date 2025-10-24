@@ -2,7 +2,7 @@ using Microsoft.SemanticKernel;
 
 public interface IChatService
 {
-    Task<ChatResponse> GetChatResponseAsync(ChatRequest chatRequest);
+    Task<ChatResponse> GetChatSummaryResponseAsync(ChatRequest chatRequest);
 }
 
 public class ChatService : IChatService
@@ -14,11 +14,12 @@ public class ChatService : IChatService
 
     }
 
-    public async Task<ChatResponse> GetChatResponseAsync(ChatRequest chatRequest)
+    public async Task<ChatResponse> GetChatSummaryResponseAsync(ChatRequest chatRequest)
     {
         var summarizeKernelFunction = _kernel.CreateFunctionFromPrompt(
                 promptTemplate: File.ReadAllText("./Data/summarize.skprompt.txt"),
                 functionName: "SummarizeText");
-        return await summarizeKernelFunction.InvokeAsync(chatRequest.UserPrompt);
+        var result = await _kernel.InvokeAsync(summarizeKernelFunction, new() { ["input"] = chatRequest.UserPrompt });
+        return new ChatResponse { Role = "Assistant", Content = result.GetValue<string>() };
     }
 }
