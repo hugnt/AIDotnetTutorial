@@ -7,7 +7,7 @@ namespace AIDotnetTutorial.Services;
 public interface IHousingPredictionService
 {
     void TrainAndSaveModel();
-    HousingPrediction Predict(HousingInput inputData);
+    HousingOnnxOutput Predict(HousingInput inputData);
 }
 
 public class HousingPredictionService : IHousingPredictionService
@@ -59,25 +59,33 @@ public class HousingPredictionService : IHousingPredictionService
         //Save the model
         using (var stream = File.Create("./ExportedModels/onnx_model.onnx"))
         {
-            mlContext.Model.ConvertToOnnx(model, data, stream);
+            mlContext.Model.ConvertToOnnx(
+                transform: model,
+                inputData: data,
+                stream: stream,
+                outputColumns: new[] { "Score" }
+            );
         }
     }
 
 
     //https://learn.microsoft.com/en-us/azure/machine-learning/how-to-use-automl-onnx-model-dotnet?view=azureml-api-2&toc=%2Fdotnet%2Fmachine-learning%2Ftoc.json&bc=%2Fdotnet%2Fmachine-learning%2Ftoc.json
-    public HousingPrediction Predict(HousingInput inputData)
+    public HousingOnnxOutput Predict(HousingInput inputData)
     {
         //Create MLContext
         var mlContext = new MLContext();
         var transformer = BuildOnnxTransformer(mlContext, "./ExportedModels/onnx_model.onnx");
-
+        var onnxPredictionEngine = mlContext.Model.CreatePredictionEngine<HousingOnnxInput, HousingOnnxOutput>(transformer);
         // Load Trained Model
-        var onnxPredictionEngine = mlContext.Model.CreatePredictionEngine<HousingData, HousingPrediction>(transformer);
-        var prediction = onnxPredictionEngine.Predict(new HousingData
+        var onnxInput = new HousingOnnxInput
         {
             Size = inputData.Size,
             HistoricalPrices = inputData.HistoricalPrices
-        });
+        };
+
+
+        var prediction = onnxPredictionEngine.Predict(onnxInput);
+        Console.WriteLine($"Input Size={onnxInput.Size}, Hist=[{string.Join(",", onnxInput.HistoricalPrices)}] => Predicted={prediction.PredictedPrice}");
         return prediction;
     }
 

@@ -36,13 +36,10 @@ public class HousingOnnxInput
 
     [ColumnName("HistoricalPrices")]
     public float[] HistoricalPrices { get; set; }
-
-    [ColumnName("Label")]
-    public float CurrentPrice { get; set; }
 }
 
 public class HousingOnnxOutput
 {
-    [ColumnName("Score")]
+    [ColumnName("Score.output")]
     public float PredictedPrice { get; set; }
 }
